@@ -7,7 +7,12 @@
 //
 
 #import "ViewController.h"
-
+#import "NSData+Joy.h"
+#import "NSObject+Extension.h"
+#import "NSString+Joy.h"
+#import "UIColor+Joy.h"
+#import "UIImage+Joy.h"
+#import "UIView+Joy.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    // NSArray+Log 让数组内包含中文的部分也直接输出
+    NSArray *eArrs = @[@[@"中文"],@"法语",@"德语"];
+    NSLog(@"%@",eArrs);
 }
 
 @end

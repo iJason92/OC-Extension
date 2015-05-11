@@ -14,6 +14,14 @@
 		96DD99331B01648600D9D943 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DD99321B01648600D9D943 /* Images.xcassets */; };
 		96DD99361B01648600D9D943 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DD99341B01648600D9D943 /* LaunchScreen.xib */; };
 		96DD99421B01648600D9D943 /* OCExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD99411B01648600D9D943 /* OCExtensionTests.m */; };
+		96DD99641B0164C300D9D943 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD994E1B0164C300D9D943 /* NSArray+Log.m */; };
+		96DD99651B0164C300D9D943 /* NSData+Joy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD99511B0164C300D9D943 /* NSData+Joy.m */; };
+		96DD99661B0164C300D9D943 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD99541B0164C300D9D943 /* NSDictionary+Log.m */; };
+		96DD99671B0164C300D9D943 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD99571B0164C300D9D943 /* NSObject+Extension.m */; };
+		96DD99681B0164C300D9D943 /* NSString+Joy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD995A1B0164C300D9D943 /* NSString+Joy.m */; };
+		96DD99691B0164C300D9D943 /* UIColor+Joy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD995D1B0164C300D9D943 /* UIColor+Joy.m */; };
+		96DD996A1B0164C300D9D943 /* UIImage+Joy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD99601B0164C300D9D943 /* UIImage+Joy.m */; };
+		96DD996B1B0164C300D9D943 /* UIView+Joy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD99631B0164C300D9D943 /* UIView+Joy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,22 @@
 		96DD993B1B01648600D9D943 /* OCExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DD99401B01648600D9D943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96DD99411B01648600D9D943 /* OCExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCExtensionTests.m; sourceTree = "<group>"; };
+		96DD994D1B0164C300D9D943 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		96DD994E1B0164C300D9D943 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		96DD99501B0164C300D9D943 /* NSData+Joy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Joy.h"; sourceTree = "<group>"; };
+		96DD99511B0164C300D9D943 /* NSData+Joy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Joy.m"; sourceTree = "<group>"; };
+		96DD99531B0164C300D9D943 /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		96DD99541B0164C300D9D943 /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		96DD99561B0164C300D9D943 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		96DD99571B0164C300D9D943 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		96DD99591B0164C300D9D943 /* NSString+Joy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Joy.h"; sourceTree = "<group>"; };
+		96DD995A1B0164C300D9D943 /* NSString+Joy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Joy.m"; sourceTree = "<group>"; };
+		96DD995C1B0164C300D9D943 /* UIColor+Joy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Joy.h"; sourceTree = "<group>"; };
+		96DD995D1B0164C300D9D943 /* UIColor+Joy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Joy.m"; sourceTree = "<group>"; };
+		96DD995F1B0164C300D9D943 /* UIImage+Joy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Joy.h"; sourceTree = "<group>"; };
+		96DD99601B0164C300D9D943 /* UIImage+Joy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Joy.m"; sourceTree = "<group>"; };
+		96DD99621B0164C300D9D943 /* UIView+Joy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Joy.h"; sourceTree = "<group>"; };
+		96DD99631B0164C300D9D943 /* UIView+Joy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Joy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,7 @@
 		96DD99241B01648600D9D943 /* OCExtension */ = {
 			isa = PBXGroup;
 			children = (
+				96DD994B1B0164A500D9D943 /* Extension */,
 				96DD99291B01648600D9D943 /* AppDelegate.h */,
 				96DD992A1B01648600D9D943 /* AppDelegate.m */,
 				96DD992C1B01648600D9D943 /* ViewController.h */,
@@ -117,6 +142,93 @@
 				96DD99401B01648600D9D943 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96DD994B1B0164A500D9D943 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				96DD994C1B0164C300D9D943 /* NSArray */,
+				96DD994F1B0164C300D9D943 /* NSData */,
+				96DD99521B0164C300D9D943 /* NSDictionary */,
+				96DD99551B0164C300D9D943 /* NSObject */,
+				96DD99581B0164C300D9D943 /* NSString */,
+				96DD995B1B0164C300D9D943 /* UIColor */,
+				96DD995E1B0164C300D9D943 /* UIImage */,
+				96DD99611B0164C300D9D943 /* UIView */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		96DD994C1B0164C300D9D943 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				96DD994D1B0164C300D9D943 /* NSArray+Log.h */,
+				96DD994E1B0164C300D9D943 /* NSArray+Log.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		96DD994F1B0164C300D9D943 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				96DD99501B0164C300D9D943 /* NSData+Joy.h */,
+				96DD99511B0164C300D9D943 /* NSData+Joy.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		96DD99521B0164C300D9D943 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				96DD99531B0164C300D9D943 /* NSDictionary+Log.h */,
+				96DD99541B0164C300D9D943 /* NSDictionary+Log.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		96DD99551B0164C300D9D943 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				96DD99561B0164C300D9D943 /* NSObject+Extension.h */,
+				96DD99571B0164C300D9D943 /* NSObject+Extension.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		96DD99581B0164C300D9D943 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				96DD99591B0164C300D9D943 /* NSString+Joy.h */,
+				96DD995A1B0164C300D9D943 /* NSString+Joy.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		96DD995B1B0164C300D9D943 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				96DD995C1B0164C300D9D943 /* UIColor+Joy.h */,
+				96DD995D1B0164C300D9D943 /* UIColor+Joy.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		96DD995E1B0164C300D9D943 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				96DD995F1B0164C300D9D943 /* UIImage+Joy.h */,
+				96DD99601B0164C300D9D943 /* UIImage+Joy.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		96DD99611B0164C300D9D943 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				96DD99621B0164C300D9D943 /* UIView+Joy.h */,
+				96DD99631B0164C300D9D943 /* UIView+Joy.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +332,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				96DD992E1B01648600D9D943 /* ViewController.m in Sources */,
+				96DD99691B0164C300D9D943 /* UIColor+Joy.m in Sources */,
+				96DD99661B0164C300D9D943 /* NSDictionary+Log.m in Sources */,
+				96DD99651B0164C300D9D943 /* NSData+Joy.m in Sources */,
+				96DD99641B0164C300D9D943 /* NSArray+Log.m in Sources */,
 				96DD992B1B01648600D9D943 /* AppDelegate.m in Sources */,
+				96DD996A1B0164C300D9D943 /* UIImage+Joy.m in Sources */,
+				96DD99671B0164C300D9D943 /* NSObject+Extension.m in Sources */,
+				96DD99681B0164C300D9D943 /* NSString+Joy.m in Sources */,
 				96DD99281B01648600D9D943 /* main.m in Sources */,
+				96DD996B1B0164C300D9D943 /* UIView+Joy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
